@@ -44,7 +44,7 @@ class _ScaffoldRouteState extends State<ScaffoldRoute> {
           IconButton(icon: Icon(Icons.share), onPressed: () {}),
         ],
       ),
-      drawer: new MyDrawer(), //抽屉
+      drawer: new Drawer(), //抽屉
       bottomNavigationBar: BottomNavigationBar( // 底部导航
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
